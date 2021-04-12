@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Header */
+.head{
+    background: linear-gradient(120deg, rgba(241, 147, 251, 0.699), rgba(85, 27, 35, 0.692)), url(/img/Header.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.text-head{
+    color: white;
+    text-align: center;
+}
+
+.text-head h1{
+    font-size: 60px;
+}
+
+.text-head p{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.text-head a{
+    background-color: #a18cd1;
+    font-size: 16px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.honda{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.contenedor-gen{
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+/* Fin header */
+
+/* contenedor 1 */
+.contenedor-gen{
+    width: 80%;
+}
+
+.conten-1{
+    height: 70%;
+}
+
+.contenido{
+    display: flex;
+    justify-content: center;  
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.imagen{
+    width: 480px;
+    height: 354px;
+    background-image: url(/img/4.png);
+    background-size: cover;
+}
+
+.text{
+    width: 400px;
+    height: 354px;
+}
+
+.text .parraf1{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.text .parraf2{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.text input{
+    font-size: 16px;
+    padding: 12px 15px;
+    background-color: tomato;
+    background: linear-gradient(90deg, #FEA3A4 0%,#FDBAB4 32%, #FBC7BE 100%);
+    border: none;
+    color: white;
+    border-radius: 7px;
+}
+
