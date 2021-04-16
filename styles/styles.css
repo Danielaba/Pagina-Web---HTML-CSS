@@ -4,6 +4,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* Header */
 .head{
     background: linear-gradient(120deg, rgba(241, 147, 251, 0.699), rgba(85, 27, 35, 0.692)), url(/img/Header.jfif);
@@ -40,6 +44,7 @@
     padding: 12px 15px;
     border-radius: 10px;
     text-decoration: none;
+    color: white;
 }
 
 .honda{
@@ -48,17 +53,12 @@
     bottom: 0;
 }
 
-.contenedor-gen{
-    width: 90%;
-    max-width: 1280px;
-    margin: auto;
-}
-
 /* Fin header */
 
 /* contenedor 1 */
 .contenedor-gen{
-    width: 80%;
+    width: 73%;
+    margin: auto;
 }
 
 .conten-1{
@@ -69,7 +69,7 @@
     display: flex;
     justify-content: center;  
     justify-content: space-between;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 .imagen{
@@ -94,7 +94,7 @@
     margin-bottom: 20px;
 }
 
-.text input{
+.boton{
     font-size: 16px;
     padding: 12px 15px;
     background-color: tomato;
@@ -102,5 +102,301 @@
     border: none;
     color: white;
     border-radius: 7px;
+    text-decoration: none;
+}
+/* Fin contenedor 1 */
+
+/* contenedor 2 */
+.conten-2{
+    width: 100%;
+    height: 250px;
+    background-color: #F5576C;
 }
 
+.contenido2{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+    color: white;
+}
+
+.prr1{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+/* Fin contenedor 2 */
+
+/* contenedor 3 */
+.conten-3{
+    height: 531px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conten-3 h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.cajas{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 0 4px rgb(148, 148, 148);
+    transition: transform .6s;
+}
+
+.cajas:hover{
+   
+    transform: scale(1.03);
+    box-shadow: 0 0 6px rgb(148, 148, 148);
+}
+
+.icono{
+    font-size: 50px;
+    color: #CC9199;
+    margin-bottom: 20px;
+}
+
+.cajas p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+/* Fin contenedor 3 */
+
+
+/* contenedor 4 */
+.conten-4{
+    width: 100%;
+    height: 670px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.conten-4 h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.galeria{
+    width: 100%;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.arriba{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+   ;
+}
+
+.abajo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.background-hover{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: -200px;
+    transition: all 300ms;
+}
+
+.img:hover .background-hover{
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+.img{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img1{
+    background-image: url(/img/8.jfif);
+    background-size: cover;
+}
+
+.img2{
+    background-image: url(/img/3.jfif);
+    background-size: cover;
+}
+
+.img3{
+    background-image: url(/img/7.jfif);
+    background-size: cover;
+}
+
+.img4{
+    background-image: url(/img/2.jfif);
+    background-size: cover;
+}
+
+.img5{
+    background-image: url(/img/0.jfif);
+    background-size: cover;
+}
+
+.img6{
+    background-image: url(/img/6.jfif);
+    background-size: cover;
+}
+/* Fin contenedor 4 */
+
+
+/* contenedor 5 */
+.conten-5{
+    width: 100%;
+    height: 495px;
+}
+
+.contenido5{
+    width: 100%;
+    height: 100%;
+    padding: 80px 0 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caja-text{
+    width: 400px;
+    height: 375px;
+}
+.contenido5 .caja-text h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.contenido5 .caja-text p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.caja-imagen{
+    width: 480px;
+    height: 375px;
+    background-image: url(/img/5.png);
+    background-size: cover;
+}
+/* Fin contenedor 5 */
+
+/* Footer */
+footer{
+    width: 100%;
+    height: 570px;
+    background-color: #F5576C;
+}
+
+.Formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Formulario h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+
+.nombre{
+    background-color: #F5576C;
+    border: 1px solid white;
+    width: 465px;
+    height: 56px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    margin-right: 10px;
+    outline: none;
+    color: white;
+}
+
+.nombre::placeholder{
+    font-size: 13px;
+    color: white;
+}
+
+.email{
+    background-color: #F5576C;
+    border: 1px solid white;
+    width: 465px;
+    height: 56px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    margin-right: 10px;
+    outline: none;
+    color: white;
+}
+
+.email::placeholder{
+    font-size: 13px;
+    color: white;
+}
+
+.mensaje{
+    background-color: #F5576C;
+    border: 1px solid white;
+    margin-bottom: 15px;
+    outline: none;
+    padding-left: 10px;
+    padding-top: 20px;
+    color: white;
+}
+
+.mensaje::placeholder{
+    font-size: 13px;
+    color: white;
+}
+
+.botoon{
+    background-color: #F5576C;
+    border: 1px solid white;
+    padding: 13px 35px;
+    color: white;
+}
+
+.botoon:hover{
+    background-color: white;
+    color: #F5576C;
+}
+/* Fin Footer */

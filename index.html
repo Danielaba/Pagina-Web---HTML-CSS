@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/6246293a11.js" crossorigin="anonymous"></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -14,20 +15,23 @@
 </head>
 
 <body>
+    <!-- Heder -->
     <header class="head">
         <div class="text-head">
             <h1>Bienvenido a Website</h1>
             <p>Creemos el mejor sitio web para ti</p>
-            <a>Contactanos</a>
+            <a href="#Final">Contactanos</a>
         </div>
 
         <div class="honda" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150"
                 preserveAspectRatio="none" style="height: 100%; width: 100%;">
                 <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
                     style="stroke: none; fill: #ffffff;"></path>
-            </svg></div>
+        </svg></div>
     </header>
+    <!-- Fin Heder -->
 
+    <!-- Contenedor 1 -->
     <section class="conten-1">
         <div class="contenedor-gen">
             <div class="contenido">
@@ -36,26 +40,123 @@
                     <p class="parraf1">Title of section</p>
                     <p class="parraf2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt enim
                         reiciendis molestias nam tempore. Ullam hic accusantium eligendi ipsam corrupti!</p>
-                    <input type="submit" value="Learn more">
+                        <a class="boton" href="">Learn more</a>
+                    
                 </div>
             </div>
         </div>
     </section>
-    <section>
-        section2
+    <!-- Fin Contenedor 1 -->
+
+    <!-- Contenedor 2 -->
+    <section class="conten-2">
+        <div class="contenido2">
+            <p class="prr1">Juntos podemos apoyar</p>
+            <p class="prr2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
     </section>
-    <section>
-        section3
+    <!-- Fin Contenedor 2 -->
+    
+    <!-- Contenedor 3 -->
+    <section class="conten-3">
+        <div class="contenedor-gen">
+            <h2>Our services</h2>
+            <div class="cards">
+                <div class="cajas">
+                    <i class="far fa-clone icono"></i>
+                    <h3>Title card</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <a class="boton" href="">Learn more</a>
+                </div>
+                <div class="cajas">
+                    <i class="fas fa-database icono"></i>
+                    <h3>Title card</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <a class="boton" href="">Learn more</a>
+                </div>
+                <div class="cajas">
+                    <i class="far fa-object-group icono"></i>
+                    <h3>Title card</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <a class="boton" href="">Learn more</a>
+                </div>
+            </div>
+        </div>
+
     </section>
-    <section>
-        section4
+    <!-- Fin Contenedor 3 -->
+
+    <!-- Contenedor 4 -->
+    <section class="conten-4">
+        <div class="contenedor-gen">
+            <h2>Our work</h2>
+            <div class="galeria">
+                <div class="arriba">
+                    <div class="img img1">
+                        <div class="background-hover"></div>
+                    </div>
+                    
+                    <div class="img img2">
+                        <div class="background-hover"></div>
+                    </div>
+                    <div class="img img3">
+                        <div class="background-hover"></div>
+                    </div>
+                </div>
+
+                <div class="abajo">
+                    <div class="img img4">
+                        <div class="background-hover"></div>
+                    </div>
+                    <div class="img img5">
+                        <div class="background-hover"></div>
+                    </div>
+                    <div class="img img6"><div class="background-hover"></div>
+                </div>
+                </div>
+                
+            </div>
+        </div>
     </section>
-    <section>
-        section5
+    <!-- Fin Contenedor 4 -->
+
+    <!-- Contenedor 5 -->
+    <section class="conten-5">
+        <div class="contenedor-gen">
+            <div class="contenido5">
+                <div class="caja-text">
+                    <h2>Title of section</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum reprehenderit
+                        nostrum expedita quasi odio architecto laudantium sunt nemo dicta atque?</p>
+                        <a class="boton" href="">Learn more</a>
+                </div>
+                <div class="caja-imagen"></div>
+            </div>
+        </div>
     </section>
-    <footer>
-        footer1
+    <!-- Fin Contenedor 5 -->
+
+    <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+        style="height: 100%; width: 100%;">
+        <path d="M-1.41,42.92 C149.99,150.00 288.09,0.50 500.27,67.59 L501.41,150.48 L-7.62,157.39 Z"
+            style="stroke: none; fill: #F5576C;"></path>
+    </svg></div>
+
+    <!-- Footer -->
+    <footer id="Final">
+        <div class="contenedor-gen">
+            <div class="Formulario">
+                <h2>Contact us</h2>
+                <form>
+                    <input type="text" class="nombre" placeholder="Nombre">
+                    <input type="email" class="email" placeholder="Email"> 
+                    <textarea name="" id="" cols="134" rows="12" class="mensaje" placeholder="Mensaje"></textarea> <br>
+                    <input type="submit" class="botoon">
+                </form>   
+            </div>    
+        </div>
     </footer>
+    <!-- Fin Footer -->
 </body>
 
 </html>
